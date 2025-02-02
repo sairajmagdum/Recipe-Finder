@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 60%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  img {
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  div {
+    margin-top: 20px;
+  }
+ /* body { */
+  /*  background-image: url('3.jpg');  Replace with your image path */
+  /*  background-size: cover;  Cover the whole page */
+  /*  background-position: center;  Center the image */
+   /* background-repeat: no-repeat;  Prevent repetition */
+ /*    min-height: 100vh; Ensure full screen */
+  /* } */
+  body{
+    background: linear-gradient(to bottom,#F9E866,#447A7A);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
